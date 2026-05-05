@@ -12,3 +12,4 @@ permalink: /about.html
   <li>GitHub：<a href="https://github.com/zjtena" target="_blank">zjtena</a></li>
   <!-- 可自行补充邮箱、社交账号等信息 -->
 </ul>
+<p>jizhong at outlook.com</p>
