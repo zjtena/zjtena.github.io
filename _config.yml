@@ -1,3 +1,9 @@
-theme: jekyll-theme-minimal
-title: Jim's homepage
-description: Bookmark this!
+title: Jim's Blog
+description: 我的个人博客，记录青春与成长
+author: Jim
+baseurl: ""
+url: "https://zjtena.github.io"
+timezone: Asia/Shanghai
+exclude:
+  - README.md
+  - .gitignore
