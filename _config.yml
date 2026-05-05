@@ -1,9 +1,36 @@
+# 博客基础信息
 title: Jim's Blog
-description: 我的幼稚的个人记录
 author: Jim
+description: 我的个人记录与思考分享
 baseurl: ""
 url: "https://zjtena.github.io"
+language: zh-CN
 timezone: Asia/Shanghai
+
+# 链接与分页配置
+permalink: /:year/:month/:day/:title.html
+paginate: 10
+paginate_path: "/page:num/"
+
+# Markdown渲染与代码高亮（和参考站一致）
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
+
+# GitHub Pages原生支持的插件，无需额外安装
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# 不参与构建的文件
 exclude:
   - README.md
-  - .gitignore
+  - old/
+  - Gemfile
+  - Gemfile.lock
