@@ -7,21 +7,18 @@ url: "https://zjtena.github.io"
 language: zh-CN
 timezone: Asia/Shanghai
 
-# 链接与分页配置
+# 链接与分页配置（核心！必须保留）
 permalink: /:year/:month/:day/:title.html
 paginate: 10
 paginate_path: "/page:num/"
 
-# Markdown渲染与代码高亮（和参考站一致）
+# Markdown渲染配置
 markdown: kramdown
 kramdown:
   input: GFM
   syntax_highlighter: rouge
-  syntax_highlighter_opts:
-    block:
-      line_numbers: true
 
-# GitHub Pages原生支持的插件，无需额外安装
+# GitHub Pages原生支持的插件，必须保留
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
