@@ -1,8 +1,8 @@
 ---
-title: page
+title: 2026-10-07-page
 date: 2026-10-7 8:0:00 +0800
-lastUpdateTime: 2026-10-7 18:7:00 +0800
-name: page
+lastUpdateTime: 2026-10-7 18:11:00 +0800
+name: 2026-10-07-page
 ---
 title: {{page.title}}
 date: {{now.YYYY}}-{{now.MM}}-{{now.DD}} {{now.HH}}:{{now.MM}}
