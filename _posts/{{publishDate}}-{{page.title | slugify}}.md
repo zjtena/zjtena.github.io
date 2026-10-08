@@ -1,13 +1,8 @@
 ---
 title: Apple new watch
 date: 2026-10-8 8:0:00 +0800
-lastUpdateTime: 2026-10-8 15:56:00 +0800
+lastUpdateTime: 2026-10-8 15:59:00 +0800
 name: name-apple new watch
----
-title: {{page.title}}
-date: {{now.YYYY}}-{{now.MM}}-{{now.DD}} {{now.HH}}:{{now.MM}}
-layout: post
----
 ---
     
 2026年苹果已经发布了新款 Apple Watch，主要包括 **Apple Watch Series 12** 和 **Apple Watch Ultra 4**。两款都在北京时间 2026 年 9 月 10 日凌晨的苹果秋季发布会上亮相，9 月 11 日开启预购，9 月 18 日正式发售。
